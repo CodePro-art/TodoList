@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+  .paper{ 
+    width: 350px;
+  }
+  #inputText {
+    margin-top: 4px;
+    width: 18em;
+    font-size: .8em;
+  }
+  .task > input {
+    width: 13em;
+    font-size: .8em;
+  }
+  .title {
+    font-size: 2em;
+  }
+  .fa-plus{
+    margin-top: 4.5px;
+    font-size: .9rem;
+  }
+
+}

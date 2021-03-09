@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower';
+  background-color: #fdf6a3;
+}
+
+.title {
+  font-size: 3em;
+  margin: 20px;
+  color: #b83b5e;
+}
+
+.far {
+  color: #6a2c70;
+}
+
+.fa-plus {
+  font-size: 1.1rem;
+  position: absolute;
+  right: 30px;
+  top: 19px;
+  color: white;
+  vertical-align: center;
+  margin-left: 8px;
+  padding: 0.2em;
+  border-radius: 4px;
+  background-color: #6a2c70;
+  box-shadow:  -1px 0 #6a2c70, 0 1px #6a2c70, 1px 0 #6a2c70, 0 -1px #6a2c70;
+  transition: all 0.2s ease-in;
+}
+
+.fa-plus:hover {
+  color: #6a2c70;
+  background-color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#inputText {
+  position: absolute;
+  top: 19px;
+  left: 55px;
+  width: 23em;
+  font-family: "Rock Salt", "Indie Flower", "Shadows Into Light", cursive;
+  font-size: 1em;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+ol {
+  position: absolute;
+  top: 48px;
+  left: 13px;
+}
+
+li {
+  width: 20em;
+  height: 1.5598rem;
+  color: #b83b5e;
+  font-weight: bolder;
+}
+
+::placeholder {
+  padding: 0.3em;
+  font-weight: bolder;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+#removeButton,
+.edit {
+  font-family: "Indie Flower", "Shadows Into Light", cursive;
+  background-color: transparent;
+  border: 3px dashed #6a2c70;
+  border-radius: 4px;
+  height: 2em;
+  float: right;
+  margin-top: 0.2em;
+  font-weight: bolder;
+}
+
+#removeButton:hover,
+.edit:hover {
+  background-color: #6a2c70;
+  color: white;
+}
+
+input[type="button"] {
+  font-size: 15px;
+}
+
+input[type="text"] {
+  font-weight: bolder;
+  padding-left: 0.5em;
+}
+
+.task > input {
+  border: none;
+  margin: 7px 20% 0px 2px;
+  padding-top: 4px;
+  outline: 0;
+  font-size: 14px;
+  height: 0.5rem;
+  font-family: 'Indie Flower';
+  color: #b83b5e;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.remove-container {
+  position: absolute;
+  top: 23px;
+  left: -5px;
+  margin-left: 1em;
+  text-align: center;
+  line-height: 0;
+}
+
+#remove-text {
+  font-family: "Roboto", sans-serif;
+  color: #b83b5e;
+}
+
+.fa-trash-alt {
+  font-size: 20px;
+  color: #6a2c70;
+  transition: .3s;
+}
+
+.fa-trash-alt:hover {
+  font-size: 24px;
+  color: red;
+}
+
+.edit {
+  margin-left: 8px;
+  height: 2.2em;
+}
+
+.task{
+  display: flex;
+}
+
+.fa-square-o{
+  align-self: center;
+}
+
+.fa-square-o:hover{
+  color: #3d1941;
+}
+
+.fa-check-square{
+  color: #6a2c70;
+  align-self: center;
+}
+
+.small{
+  align-self: center;
+  font-size: 15px;
+}
